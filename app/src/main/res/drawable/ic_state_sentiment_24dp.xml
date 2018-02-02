@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:inset="4dp">
+
+    <selector>
+
+        <item
+            android:drawable="@drawable/ic_sentiment_satisfied_black_24dp"
+            android:state_checked="true" />
+
+        <item android:drawable="@drawable/ic_sentiment_neutral_black_24dp" />
+
+    </selector>
+</inset>
